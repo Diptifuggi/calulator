@@ -1,0 +1,112 @@
+.swp-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: lightblue;
+  /* background: #f8f9fa url('/images/2.jpg') no-repeat center center; */
+
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.swp-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.swp-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.swp-form label {
+  font-weight: bold;
+  color: #555;
+}
+
+.swp-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.swp-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.swp-form button:hover {
+  background-color: #0056b3;
+}
+
+.swp-chart {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swp-summary {
+  margin-top: 20px;
+}
+
+.swp-summary h3 {
+  text-align: center;
+  color: #333;
+}
+
+.swp-summary table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.swp-summary table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  background: #fff;
+}
+
+.swp-summary table tr:nth-child(even) {
+  background: #f1f1f1;
+}
+
+.swp-table {
+  margin-top: 20px;
+}
+
+.swp-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.swp-table th, .swp-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.swp-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.swp-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
